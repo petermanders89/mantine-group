@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@mantine/hooks": "^7.15.3",
+    "@mantine/core": "^7.15.3",
+    "babel-loader": "^9.2.1",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "terser-webpack-plugin": "^5.3.11",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack --config webpack.js --mode development",
+    "build:prod": "webpack --config webpack.js --mode production"
+  }
+}
